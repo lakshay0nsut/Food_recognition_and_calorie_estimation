@@ -1,0 +1,21 @@
+# Core Python libraries
+numpy==1.24.2
+pandas==1.5.3
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Image processing
+opencv-python==4.7.0.72
+scikit-image==0.20.0
+
+# Machine Learning / Deep Learning
+scikit-learn==1.2.2
+tensorflow==2.11.0
+keras==2.11.0
+
+# Utility and misc
+tqdm==4.65.0
+jupyterlab==3.6.1  # Optional: for running in notebooks
+
+# Plotting (optional, for visualizations)
+Pillow==9.4.0
