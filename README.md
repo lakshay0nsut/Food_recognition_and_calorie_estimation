@@ -35,10 +35,10 @@ If you're using a public dataset, mention it here, e.g.:
 Here are the accuracy and loss curves for the training and validation phases of the model:
 
 ### 🔹 Training Accuracy Curve
-![Training Accuracy](./assets/training_accuracy.png)
+![Training Accuracy]<img src="./assets/training_accuracy.png" alt="Accuracy Curve" width="500"/>
 
 ### 🔹 Validation Accuracy Curve
-![Validation Accuracy](./assets/validation_accuracy.png)
+![Validation Accuracy]<img src="./assets/validation_accuracy.png" alt="Accuracy Curve" width="500"/>
 
 These plots help visualize how well the model is learning over time. A narrowing gap between training and validation curves typically indicates good generalization. Significant divergence may suggest overfitting.
 
