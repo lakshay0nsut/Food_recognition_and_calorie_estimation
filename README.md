@@ -30,6 +30,20 @@ The dataset includes images of various food items, each annotated with ground tr
 If you're using a public dataset, mention it here, e.g.:
 
 > Dataset: [Food-101](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
+## 📊 Training & Validation Results
+
+Here are the accuracy and loss curves for the training and validation phases of the model:
+
+### 🔹 Training Accuracy Curve
+![Training Accuracy](./assets/training_accuracy.png)
+
+### 🔹 Validation Accuracy Curve
+![Validation Accuracy](./assets/validation_accuracy.png)
+
+These plots help visualize how well the model is learning over time. A narrowing gap between training and validation curves typically indicates good generalization. Significant divergence may suggest overfitting.
+
+> 📁 Make sure your `accuracy_curve.png` and `loss_curve.png` are saved in the `/assets` directory.
+
 
 ## 🔍 How it Works
 
