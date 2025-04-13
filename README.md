@@ -22,13 +22,6 @@ This project focuses on classifying food items from images and estimating their 
 - Scikit-learn
 - Matplotlib / Seaborn
 
-## 📁 Project Structure
-
-📦 food-calorie-estimation/ ├── calorie_calc.py # Main calorie estimation script ├── create_feature.py # Creates feature vectors from images ├── density_calorie.csv # Dataset with food density and calories ├── feature_color.py # Extracts color features ├── feature_gabor.py # Extracts texture features ├── feature_moments.py # Extracts shape features ├── img_seg.py # Image segmentation code ├── learn.py # Model training and testing ├── /images # Folder containing sample food images └── README.md # Project readme (this file)
-
-markdown
-Copy
-Edit
 
 ## 📊 Dataset
 
@@ -36,7 +29,7 @@ The dataset includes images of various food items, each annotated with ground tr
 
 If you're using a public dataset, mention it here, e.g.:
 
-> Dataset: [Food-101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)
+> Dataset: [Food-101](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
 
 ## 🔍 How it Works
 
@@ -47,28 +40,17 @@ If you're using a public dataset, mention it here, e.g.:
 5. **Calorie Calculation**: Calculates total calories using:
 Calories = Volume × Density × Caloric Value per Gram
 
-bash
-Copy
-Edit
 
 ## 🛠️ How to Run
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/food-calorie-estimation.git
+git clone https://github.com/lakshay0nsut/Food_recognition_and_calorie_estimation.git
 cd food-calorie-estimation
+
 Install dependencies:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-Run the calorie estimation pipeline:
 
-bash
-Copy
-Edit
-python calorie_calc.py
 📈 Sample Results
 Image	Predicted Class	Estimated Calories
 🍕 pizza.jpg	Pizza	266 kcal
@@ -95,25 +77,7 @@ Contributions are welcome! Please open an issue first to discuss what you would 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 🙋‍♂️ Contact
-Created by Your Name — feel free to connect!
+Created by Lakshay and Divyanshu — feel free to connect!
 
 css
-Copy
-Edit
-
 Want me to generate a `requirements.txt` or a sample banner image to go along with it?
-
-
-
-
-
-
-
-
-
-
-
-
-Search
-
-Reas
