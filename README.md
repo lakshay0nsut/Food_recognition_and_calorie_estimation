@@ -2,7 +2,7 @@
 
 This project focuses on classifying food items from images and estimating their calorie content using computer vision and deep learning techniques. It aims to help users track nutritional intake through image-based food recognition.
 
-![Food Calorie Estimation](./assets/food_banner.jpg) <!-- Add your own banner or sample image -->
+![Food Calorie Estimation](./assets/model.jpg) <!-- Add your own banner or sample image -->
 
 ## 🚀 Features
 
@@ -35,10 +35,10 @@ If you're using a public dataset, mention it here, e.g.:
 Here are the accuracy and loss curves for the training and validation phases of the model:
 
 ### 🔹 Training Accuracy Curve
-![Training Accuracy]<img src="./assets/training_accuracy.png" alt="Accuracy Curve" width="500"/>
+<img src="./assets/training_accuracy.png" alt="Accuracy Curve" width="500"/>
 
 ### 🔹 Validation Accuracy Curve
-![Validation Accuracy]<img src="./assets/validation_accuracy.png" alt="Accuracy Curve" width="500"/>
+<img src="./assets/validation_accuracy.png" alt="Accuracy Curve" width="500"/>
 
 These plots help visualize how well the model is learning over time. A narrowing gap between training and validation curves typically indicates good generalization. Significant divergence may suggest overfitting.
 
