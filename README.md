@@ -34,13 +34,22 @@ If you're using a public dataset, mention it here, e.g.:
 🥦 Nutrition Value Dataset
 To enhance the calorie estimation system, you can include a dataset that maps food items to their nutritional values per 100g.
 
-📊 Dataset Format
-Prepare an Excel file (nutrition_data.xlsx) with the following columns:
+## 📊 nutrition data Format
+To enrich the calorie estimation system, a nutritional dataset can be added containing values like calories, carbohydrates, protein, fat, vitamins, and minerals per 100g of food. This information can be collected from reliable sources such as [USDA FoodData Central](https://fdc.nal.usda.gov/), [NutritionValue.org](https://www.nutritionvalue.org/), and [MyFitnessPal](https://www.myfitnesspal.com/food).
 
-Name	Calories (per 100g)	Carbohydrates (g)	Protein (g)	Fat (g)	Fiber (g)	Vitamin C (mg)	Zinc (mg)	Potassium (mg)	Iron (mg)	Calcium (mg)
-Apple	52	13.8	0.3	0.2	2.4	4.6	0.04	107	0.12	6
-Banana	89	22.8	1.1	0.3	2.6	8.7	0.15	358	0.26	5
-...	...	...	...	...	...	...	...	...	...	...
+# 🐍 Sample Python Code to Load Dataset
+import pandas as pd
+```
+# Load nutrition dataset
+nutrition_df = pd.read_excel("nutrition_data.xlsx")
+
+# Display first few rows
+print(nutrition_df.head())
+
+```
+# Screenshot
+<img src="./assets/nutrition_dataset.png" alt="Accuracy Curve" width="500"/>
+
 
 
 ## 📊 Training & Validation Results
