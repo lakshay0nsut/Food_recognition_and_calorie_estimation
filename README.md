@@ -2,7 +2,7 @@
 
 This project focuses on classifying food items from images and estimating their calorie content using computer vision and deep learning techniques. It aims to help users track nutritional intake through image-based food recognition.
 
-![Food Calorie Estimation](./assets/food_banner.png) <!-- Add your own banner or sample image -->
+<img src="./assets/food_banner.png" alt="Accuracy Curve" width="500"/>
 
 ## 🚀 Features
 
