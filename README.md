@@ -40,11 +40,6 @@ Here are the accuracy and loss curves for the training and validation phases of 
 ### 🔹 Validation Accuracy Curve
 <img src="./assets/validation_accuracy.png" alt="Accuracy Curve" width="500"/>
 
-These plots help visualize how well the model is learning over time. A narrowing gap between training and validation curves typically indicates good generalization. Significant divergence may suggest overfitting.
-
-> 📁 Make sure your `accuracy_curve.png` and `loss_curve.png` are saved in the `/assets` directory.
-
-
 ## 🔍 How it Works
 
 1. **Preprocessing**: Food images are segmented using contour detection and thresholding.
@@ -60,7 +55,7 @@ Calories = Volume × Density × Caloric Value per Gram
 1. Clone the repository:
 ```bash
 git clone https://github.com/lakshay0nsut/Food_recognition_and_calorie_estimation.git
-cd food-calorie-estimation
+cdFood_recognition_and_calorie_estimation
 
 Install dependencies:
 pip install -r requirements.txt
@@ -92,6 +87,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 🙋‍♂️ Contact
 Created by Lakshay and Divyanshu — feel free to connect!
-
-css
-Want me to generate a `requirements.txt` or a sample banner image to go along with it?
