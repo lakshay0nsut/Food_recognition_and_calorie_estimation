@@ -30,6 +30,19 @@ The dataset includes images of various food items, each annotated with ground tr
 If you're using a public dataset, mention it here, e.g.:
 
 > Dataset: [Food-101](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
+
+🥦 Nutrition Value Dataset
+To enhance the calorie estimation system, you can include a dataset that maps food items to their nutritional values per 100g.
+
+📊 Dataset Format
+Prepare an Excel file (nutrition_data.xlsx) with the following columns:
+
+Name	Calories (per 100g)	Carbohydrates (g)	Protein (g)	Fat (g)	Fiber (g)	Vitamin C (mg)	Zinc (mg)	Potassium (mg)	Iron (mg)	Calcium (mg)
+Apple	52	13.8	0.3	0.2	2.4	4.6	0.04	107	0.12	6
+Banana	89	22.8	1.1	0.3	2.6	8.7	0.15	358	0.26	5
+...	...	...	...	...	...	...	...	...	...	...
+
+
 ## 📊 Training & Validation Results
 
 Here are the accuracy and loss curves for the training and validation phases of the model:
